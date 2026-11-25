@@ -7,12 +7,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body >
-    <section class="shadow mb-5" id="navbar">
-        <nav class="max-w-7xl w-full  mx-auto flex gap-100  py-6  ">
+    <section class="shadow mb-5" id="navbar ">
+        <nav class="max-w-7xl w-full  mx-auto flex gap-100  py-6  max-sm:px-1 ">
             <div class="text-2xl">
                 <p class="text-blue-600 font-bold">MiniShop</p>
             </div>
-            <div class="flex  list-none gap-5 text-2xl">
+            <div class="flex  list-none gap-5 text-2xl max-sm:flex-col ">
                 <li><a class="hover:text-blue-600" href="#">Home</a></li>
                 <li><a class="hover:text-blue-600" href="#product">Products</a></li>
                 <li><a class="hover:text-blue-600" href="#">About</a></li>
@@ -20,13 +20,13 @@
             </div>
         </nav>
     </section>
-    <section>
+    <section class="mb-10">
         <div class="max-w-7xl w-full mx-auto mb-7">
             <div class="text-center ml-4">
             <h1 class="text-4xl font-bold mb-3">Explore Our Products</h1>
             <p class="text-slate-600 mb-4">Find something you love.</p>
         </div>
-         <div class="flex justify-between">
+         <div class="flex justify-between max-sm:flex-col gap-3 ml-1  ">
             <div >
                 <input type="text" placeholder="Search products..."
                     class="w-150 h-10 pl-9 pr-3 border border-slate-200 rounded-xl outline-none focus:border-blue-500 shadow">
@@ -40,7 +40,7 @@
                 </select>
             </div>
              <div>
-                <select class="w-60 h-10 pl-2 pr-4   border-slate-200 rounded-xl shadow ">
+                <select class="w-60 h-10 pl-2 pr-4   border-slate-200 rounded-xl shadow  ">
                     <option value="">Sort by price</option>
                     <option value="low">Price: Low to High</option>
                     <option value="high">Price: High to Low</option>
@@ -52,9 +52,9 @@
     <section class="mb-10" id="product">
         <div class="max-w-7xl w-full mx-auto ">
     
-            <p class="text-xl mb-3">6 Products found</p>
+            <p class="text-xl mb-3 max-sm:ml-1">6 Products found</p>
     
-            <div class="flex  flex-wrap gap-10">
+            <div class="flex  flex-wrap gap-10 max-sm:justify-center">
                 <div class="w-100 h-109 shadow-md rounded-xl">
                     <div class="mb-4"><img class="w-100 h-70 rounded-2xl shadow" src="images/headphone.jpg" alt=""></div>
                     <div class="px-3">
